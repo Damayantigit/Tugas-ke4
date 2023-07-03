@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    background-color: rgb(54, 47, 47);
+    font-family: sans-serif;
+  }
+  
+  main{
+    width: 400px;
+    background-color: white;
+    margin: auto;
+    padding: 15px;
+  }
+  
+  main a{
+    padding: 5px 7px;
+    background-color: rgb(231, 173, 102);
+    border: 1px darkgray solid;
+    text-decoration: none;
+  }
+  
+  main a:hover{
+    background-color: red;
+    color: white;
+  }
+  main h2{
+    margin: 10px 0;
+  }
+  
+  label, input{
+    display: block;
+  }
+  
+  label{
+    margin-bottom: 5px;
+  }
+  
+  input{
+    margin-bottom: 10px;
+    padding: 3px;
+  }
+  
+  input[type='submit']{
+    padding: 3px 5px;
+  
+  }
+  .error-container {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .result-container {
+    background-color: rgb(0, 225, 255);
+    color: rgb(108, 94, 94);
+    padding: 5px;
+  }
+  
+  .result-container h2 {
+    margin: 0;
+  }
